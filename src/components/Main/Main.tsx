@@ -8,8 +8,8 @@ import { getItem, setItem } from "../../utils";
 const inintialTodos: Todo[] = [
   {
     id: "1",
-    todo: "Clean",
-    priority: "medium",
+    todo: "Add a new todo",
+    priority: "high",
     date: "today",
     completed: false,
   },
@@ -22,9 +22,9 @@ const inintialTodos: Todo[] = [
   },
   {
     id: "3",
-    todo: "Go to muay thai",
-    priority: "high",
-    date: "today",
+    todo: "Clean the house",
+    priority: "medium",
+    date: "tomorrow",
     completed: false,
   },
 ];
