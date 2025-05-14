@@ -3,8 +3,15 @@ export type Option = {
     value: string;
 }
 
-export interface FormData  {
+export interface FormData {
     todo: string;
     priority: string;
     date: string;
+}
+
+export interface Todo {
+    todo: string;
+    priority: string;
+    date: string;
+    completed: boolean;
 }
