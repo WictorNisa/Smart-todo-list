@@ -4,12 +4,14 @@ export type Option = {
 }
 
 export interface FormData {
+    id: string;
     todo: string;
     priority: string;
     date: string;
 }
 
 export interface Todo {
+    id: string,
     todo: string;
     priority: string;
     date: string;

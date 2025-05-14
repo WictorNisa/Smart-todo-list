@@ -7,6 +7,7 @@ interface AddTodoFormProps {
 
 const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
   const [formData, setFormData] = useState<FormData>({
+    id: "",
     todo: "",
     priority: "",
     date: "",
@@ -35,6 +36,7 @@ const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
     console.log(formData);
     addTodo(formData);
     setFormData({
+      id: "",
       todo: "",
       priority: "",
       date: "",
